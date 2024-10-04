@@ -28,3 +28,7 @@ const sayHi = function(){
 console.log(typeof sayHi)
 
 // Javascript is dynamically typed language => you don't have to predfine variable datatype
+
+// ****************************************************************************************************************
+
+//Stack(Primitive) , Heap(Non-primitive)
