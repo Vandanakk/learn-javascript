@@ -3,8 +3,9 @@
 
 (function one(){
     console.log("DB Connected")
-})()
+})();
 
 ( (name) => {
     console.log(`DB Connected two ${name}`)
-})("Vandana")
+})("Vandana");
+
