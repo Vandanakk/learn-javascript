@@ -17,8 +17,30 @@ const user = {
 
 // console.log(this)                       //The global context is empty
 
+//Do not use this in function//
 function one(){
-    console.log(this)
+    username = "Vandana"
+    console.log(this.username)
 }
 
 one()
+
+//*******************Arrow function*******************//
+const two = () => {
+    username = "Vandana"
+    console.log(username)
+}
+two()
+
+const addTwo = (num1, num2) => {
+    return num1+num2
+}
+console.log(addTwo(1, 3))
+
+//Implicit return//
+const add = (num1, num2) => (num1+num2)
+console.log(add(3, 5))
+
+//Return an object//
+const returnObject = () => ({username: "Vandana"})
+console.log(returnObject())
